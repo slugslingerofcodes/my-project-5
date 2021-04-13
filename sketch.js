@@ -163,8 +163,8 @@ function draw() {
         textSize(50);
         textFont("Arial");
         stroke(3);
-        fill('blue');
-        text("GAME OVER", 500, 200);
+        fill('rgba(224, 105, 68, 0.594)');
+        text("GAME OVER", 450, 200);
         conmouseleave.log("fire")
     }
 
@@ -221,7 +221,7 @@ function draw() {
         textSize(50);
         textFont("Arial");
         stroke(3);
-        fill('blue');
+        fill('rgba(224, 105, 68, 0.594)');
         text("GAME OVER", 500, 200);
     }
 
@@ -229,7 +229,7 @@ function draw() {
         textSize(50);
         textFont("Arial");
         stroke(3);
-        fill('blue');
+        fill('rgba(224, 105, 68, 0.594)');
         text("GAME OVER", 500, 200);
     }
 
@@ -237,7 +237,7 @@ function draw() {
         textSize(50);
         textFont("Arial");
         stroke(3);
-        fill('blue');
+        fill('rgba(224, 105, 68, 0.594)');
         text("GAME OVER", 500, 200);
         //  bg.play();
     }
@@ -245,7 +245,7 @@ function draw() {
         textSize(50);
         textFont("Arial");
         stroke(3);
-        fill('blue');
+        fill('rgba(224, 105, 68, 0.594)');
         text("GAME OVER", 500, 200);
         //  bg.play();
     }
@@ -253,7 +253,7 @@ function draw() {
         textSize(50);
         textFont("Arial");
         stroke(3);
-        fill('blue');
+        fill('rgba(224, 105, 68, 0.594)');
         text("GAME OVER", 500, 200);
     }
 
@@ -261,16 +261,25 @@ function draw() {
         textSize(50);
         textFont("Arial");
         stroke(3);
-        fill('blue');
-        text("GAME OVER", 500, 200);
+        fill('rgba(224, 105, 68, 0.594)');
+        text("GAME OVER", 450, 200);
         //  bg.play();
     }
     if (flag === 7) {
         textSize(50);
         textFont("Arial");
         stroke(3);
-        fill('blue');
-        text("GAME OVER", 500, 200);
+        fill('rgba(224, 105, 68, 0.594)');
+        text("GAME OVER", 450, 200);
+    }
+
+    if(plr1.body.position.y>=315 &&
+        plr1.body.position.x>=1152  ){
+            textSize(50);
+            textFont("Arial");
+            stroke(3);
+            fill('rgba(224, 105, 68, 0.594)');
+            text("YOU WON", 450, 200);
     }
 
     image(fire, 550, 380, 300, 150)
