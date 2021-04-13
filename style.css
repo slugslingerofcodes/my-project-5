@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color:rgba(67, 29, 24, 0.779);
+  font-family: 'Syne Mono', monospace;
+  text-align: center;
+}
+canvas{
+  margin-left: 100px;
+  margin-right: 10px;
+ 
+   border: 10px solid rgba(224, 105, 68, 0.594); 
+}
+
+h1{
+  font-size: 100;
+  margin-top: 50;
+
+}
